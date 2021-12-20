@@ -1,0 +1,135 @@
+<TableLayout android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Examination"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Board"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Percentage"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year of Passing"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Class X"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="20dp">
+
+        </TextView>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp">
+        </EditText>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp">
+        </EditText>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp">
+        </EditText>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Class XII"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="20dp">
+
+        </TextView>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp">
+        </EditText>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp">
+        </EditText>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp">
+        </EditText>
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Graduation"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="20dp">
+
+        </TextView>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp">
+        </EditText>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp">
+        </EditText>
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp">
+        </EditText>
+
+
+    </TableRow>
+    <Button
+        android:id="@+id/btn"
+        android:text="Submit"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:onClick="mymethod">
+
+    </Button>
+
+</TableLayout>
